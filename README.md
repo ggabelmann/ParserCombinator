@@ -10,7 +10,7 @@ In my words, a ParserCombinator scans a String, left to right, and builds a tree
 At the same time, the tree can be pruned and/or mapped to other domain-specific objects.
 
 This ParserCombinator can work with any input, not just Strings.
-So, for example, it could scan an array of bytes and, if successful, return a Result<Image> object.
+So, for example, it could scan an array of bytes and, if successful, return a `Result<Image>` object.
 
 ## Example
 
